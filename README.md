@@ -24,13 +24,25 @@ Synthetic data is increasingly being created via LLMs.
 
 ### [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia)
 
-### [HuggingFaceM4/WebSight](https://huggingface.co/datasets/HuggingFaceM4/WebSight)
+### [WebSight](https://huggingface.co/datasets/HuggingFaceM4/WebSight)
 
-### Libraries/code
+### [synthetic_text_to_sql](https://huggingface.co/datasets/gretelai/synthetic_text_to_sql)
 
-- distilabel: https://distilabel.argilla.io/latest/
-- https://github.com/jondurbin/airoboros
-- llm-swarm https://github.com/huggingface/llm-swarm
+## Libraries/code
+
+This list isn't compressive and tries to focus on either actively developed libraries or libraries/code examples that demonstrate a particular approach well.
+
+### distilabel
+
+https://distilabel.argilla.io/latest/
+
+### airoboros
+
+https://github.com/jondurbin/airoboros
+
+### llm-swarm
+
+https://github.com/huggingface/llm-swarm
 
 ## Papers
 
