@@ -12,7 +12,7 @@ Synthetic data refers to artificially generated data that _usually_ aims to mimi
 
 ### [Textbooks Are All You Need](https://huggingface.co/papers/2306.11644)
 
-This paper discusses some of the components of a dataset used for producing a dataset that was used to train [phi-1](https://huggingface.co/microsoft/phi-1), an LLM with 1.3 billion parameters that at the time of publication was competitive which much larger LLMs. This paper discusses a lot of important techniques but unfortunately many important details are missing aka peer review was done by legal.
+This paper discusses some of the components of a dataset used for producing a dataset that was used to train [phi-1](https://huggingface.co/microsoft/phi-1), an LLM with 1.3 billion parameters that at the time of publication was competitive with much larger LLMs. This paper discusses a lot of important techniques but unfortunately, many important details are missing AKA peer review was done by legal.
 
 ### [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://huggingface.co/papers/2305.07759)
 
