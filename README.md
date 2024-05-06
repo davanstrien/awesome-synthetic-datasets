@@ -25,11 +25,15 @@ This is a very nice paper. It introduces a very novel approach for trying to bet
 
 ### [Self-Instruct: Aligning Language Model with Self Generated Instructions](https://huggingface.co/papers/2212.10560)
 
-### WizardLM: Empowering Large Language Models to Follow Complex Instructions: https://huggingface.co/papers/2304.12244
+### [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://huggingface.co/papers/2304.12244)
 
-Also check out the other Wizard papers i.e. WizardCoder: Empowering Code Large Language Models with Evol-Instruct: https://huggingface.co/papers/2306.08568
+Also check out the other Wizard papers i.e. [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://huggingface.co/papers/2306.08568).
 
 ### [Improving Text Embeddings with Large Language Models](https://huggingface.co/papers/2401.00368)
+
+<details> <summary>Abstract</summary>
+> In this paper, we introduce a novel and simple method for obtaining high-quality text embeddings using only synthetic data and less than 1k training steps. Unlike existing methods that often depend on multi-stage intermediate pre-training with billions of weakly-supervised text pairs, followed by fine-tuning with a few labeled datasets, our method does not require building complex training pipelines or relying on manually collected datasets that are often constrained by task diversity and language coverage. We leverage proprietary LLMs to generate diverse synthetic data for hundreds of thousands of text embedding tasks across nearly 100 languages. We then fine-tune open-source decoder-only LLMs on the synthetic data using standard contrastive loss. Experiments demonstrate that our method achieves strong performance on highly competitive text embedding benchmarks without using any labeled data. Furthermore, when fine-tuned with a mixture of synthetic and labeled data, our model sets new state-of-the-art results on the BEIR and MTEB benchmarks.
+</details>
 
 ## Important Datasets
 
