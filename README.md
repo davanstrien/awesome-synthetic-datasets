@@ -1,5 +1,8 @@
-<h1 style="text-align: center;">Awesome Synthetic (text) Data Generation</h1>
-<p style="text-align: center;"><i>Generating datasets using large language models</i></p>
+<div align="center">
+  <h1>Awesome Synthetic (text) Data Generation /h1>
+   <p><em>Generating datasets using large language models</em></p>
+</div>
+<br/>
 
 ## What is synthetic data?
 
