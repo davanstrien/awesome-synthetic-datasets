@@ -1,10 +1,15 @@
-<p style="text-align: center;"><h1>Awesome Synthetic (text) Data generation</h1></p>
+<h1 style="text-align: center;">Awesome Synthetic (text) Data Generation</h1>
+<p style="text-align: center;"><i>Generating datasets using large language models</i></p>
 
 ## What is synthetic data?
 
-Synthetic data, in the context of large language models (LLMs) and machine learning, refers to artificially generated data that mimics real-world data. This data is created algorithmically, often using generative models or simulations, rather than being collected from real-world sources.
+Synthetic data refers to artificially generated data that usually aims to mimic real-world data. This data is created algorithmically, often using models or simulations, rather than being collected from real-world sources. Synthetic data has been used for a long time in machine learning, particularly for domains where real data is scarce or expensive to collect. It is also used to augment real data to improve model performance or to protect privacy by generating data that is similar to real data but does not contain sensitive information. This repository is focused primarily on synthetic data generated via the use of large language models (LLMs).
 
-## Synthetic data generation for LLMs and vLLMs
+## Synthetic data generation from and for LLMs and vLLMs
+
+Synthetic data is increasingly being created via LLMs.
+
+## Synthetic data generation for other text-based tasks
 
 ## Important Datasets
 
