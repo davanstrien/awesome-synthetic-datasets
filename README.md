@@ -10,6 +10,8 @@ Synthetic data refers to artificially generated data that _usually_ aims to mimi
 
 ## Important Papers
 
+Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had an important impact.
+
 ### [Textbooks Are All You Need](https://huggingface.co/papers/2306.11644)
 
 This paper discusses some of the components of a dataset used for producing a dataset that was used to train [phi-1](https://huggingface.co/microsoft/phi-1), an LLM with 1.3 billion parameters that at the time of publication was competitive with much larger LLMs. This paper discusses a lot of important techniques but unfortunately, many important details are missing AKA peer review was done by legal.
