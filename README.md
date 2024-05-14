@@ -74,7 +74,7 @@ This framework aims to help you automatically generate high-quality, detailed pr
 
 ### Important Papers
 
-Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild").
+Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild"). I am collecting a longer list of papers in this Hugging Face [Collection](https://huggingface.co/collections/davanstrien/synthetic-text-dataset-generation-6643aa29d216a196f31758a8).
 
 - [Textbooks Are All You Need](https://huggingface.co/papers/2306.11644)
 - [TinyStories: How Small Can Language Models Be and Still Speak Coherent English?](https://huggingface.co/papers/2305.07759)
