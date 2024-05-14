@@ -13,7 +13,7 @@ jobs:
       uses: nateraw/huggingface-sync-action@v0.0.4
       with:
         github_repo_id: davanstrien/awesome-synthetic-datasets
-        huggingface_repo_id: davanstrien/awesome-synthetic-datasets/
+        huggingface_repo_id: davanstrien/awesome-synthetic-datasets
         repo_type: space
         space_sdk: static
         hf_token: ${{ secrets.HF_TOKEN }}

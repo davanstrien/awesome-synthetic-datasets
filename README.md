@@ -14,6 +14,10 @@ Synthetic data refers to artificially generated data that _usually_ aims to mimi
 
 WIP!
 
+## Important techniques
+
+WIP!
+
 ### Important Datasets
 
 #### [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories)
