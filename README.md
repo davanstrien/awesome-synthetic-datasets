@@ -1,12 +1,12 @@
 <div align="center">
-  <h1>Awesome Synthetic (text) Data Generation </h1>
+  <h1>Awesome Synthetic (text) datasets </h1>
    <p><em>Generating datasets using large language models</em></p>
 </div>
 <br/>
 
 ## What is synthetic data?
 
-Synthetic data refers to artificially generated data that _usually_ aims to mimic real-world data. This data is created algorithmically, often using models or simulations, rather than being collected from real-world sources. Synthetic data has been used for a long time in machine learning. Since the advent of LLMs, there has been an increasing use of LLMs for producing synthetic data and for using synthetic data for training LLMs.
+Synthetic data refers to artificially generated data that _usually_ aims to mimic real-world data. This data is created algorithmically, often using models or simulations, rather than being collected from real-world sources. Synthetic data has been used for a long time in machine learning. Since the advent of LLMs, there has been increasing use of LLMs for producing synthetic data and for using synthetic data for training LLMs.
 
 ## Resources
 
