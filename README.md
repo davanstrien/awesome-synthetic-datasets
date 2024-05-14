@@ -67,6 +67,11 @@ This library is primarily focused on scaling synthetic text generation using Slu
 
 This is a project to bootstrap the creation of domain-specific datasets for training models. The goal is to create a set of tools that help users to collaborate with domain experts. Includes a UI tool for creating a pipeline for generating a synthetic dataset focused on a particular domain.
 
+#### [AutoPrompt](https://github.com/Eladlev/AutoPrompt)
+> A framework for prompt tuning using Intent-based Prompt Calibration
+
+This framework aims to help you automatically generate high-quality, detailed prompts. It uses a refinement process, where it iteratively builds a dataset of challenging edge cases and optimizes the prompt accordingly. This approach aims to reduce the manual effort in prompt engineering and reduce prompt sensitivity.
+
 ### Important Papers
 
 Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild").
