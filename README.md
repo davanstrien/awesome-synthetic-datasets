@@ -10,6 +10,10 @@ Synthetic data refers to artificially generated data that _usually_ aims to mimi
 
 ## Resources
 
+## Tutorials, guides and educational blog posts
+
+WIP!
+
 ### Important Datasets
 
 #### [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories)
@@ -36,7 +40,7 @@ More details in this [blog post](https://huggingface.co/blog/websight).
 
 > gretelai/synthetic_text_to_sql is a rich dataset of high quality synthetic Text-to-SQL samples, designed and generated using Gretel Navigator, and released under Apache 2.0. Please see our release blogpost for more details.
 
-### Libraries/code
+### Libraries, code and tools
 
 This list isn't compressive and tries to focus on either actively developed libraries or libraries/code examples that demonstrate a particular approach well.
 
@@ -51,6 +55,10 @@ This is a very flexible library that is actively being developed and improved. I
 > Manage scalable open LLM inference endpoints in Slurm clusters
 
 This library is primarily focused on scaling synthetic text generation using Slurm clusters. This library was used to generate [Cosmopedia](https://github.com/davanstrien/awesome-synthetic-datasets?tab=readme-ov-file#cosmopedia)
+
+#### [Domain Specific Dataset Project](https://github.com/huggingface/data-is-better-together/blob/main/domain-specific-datasets/README.md)
+
+This is a project to bootstrap the creation of domain-specific datasets for training models. The goal is to create a set of tools that help users to collaborate with domain experts. Includes a UI tool for creating a pipeline for generating a synthetic dataset focused on a particular domain.
 
 ### Important Papers
 
