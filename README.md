@@ -19,7 +19,7 @@ WIP!
 
 ## Important techniques
 
-- [Self-Instruct](./self_instruct)
+- [Self-Instruct](techniques/self_instruct/README.md)
 
 ### Important Datasets
 
