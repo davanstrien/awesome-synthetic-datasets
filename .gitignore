@@ -1,2 +1,5 @@
 .vscode/settings.json
 .DS_Store
+.env
+logs/
+__pycache__/
