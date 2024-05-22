@@ -20,6 +20,7 @@ This repository aims to organize resources focused on helping people (including 
 ## Important techniques
 
 - [Self-Instruct](techniques/self_instruct/README.md)
+- [Generating custom sentence similarity datasets](techniques/similarity-datasets/description_based_similarity.ipynb)
 
 ### Important Datasets
 
