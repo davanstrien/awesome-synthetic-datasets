@@ -15,7 +15,7 @@ This repository aims to organize resources focused on helping people (including 
 
 ## Tutorials, guides and educational blog posts
 
-WIP!
+- [Synthetic data: save money, time and carbon with open source](https://huggingface.co/blog/synthetic-data-save-costs): shows how to use an open-source LLM to create synthetic data to train your customized model in a few steps.
 
 ## Important techniques
 
