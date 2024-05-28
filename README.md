@@ -74,6 +74,12 @@ This is a project to bootstrap the creation of domain-specific datasets for trai
 
 This framework aims to help you automatically generate high-quality, detailed prompts. It uses a refinement process, where it iteratively builds a dataset of challenging edge cases and optimizes the prompt accordingly. This approach aims to reduce the manual effort in prompt engineering and reduce prompt sensitivity.
 
+#### [Self-Contrast](https://github.com/THUDM/Self-Contrast)
+
+> Self-Contrast is an innovative method that offers an annotation-free approach for aligning with human preference.
+
+This is the code accompanying the Starling team's paper ["Extensive Self-Contrast Enables Feedback-Free Language Model Alignment"](https://arxiv.org/abs/2404.00604v1).  The "Nectar" synthetic dataset is used to train a reward model, which is then used to train a large language model by Reinforcement Learning with AI Feedback (RLAIF).
+
 ### Important Papers
 
 Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild"). I am collecting a longer list of papers in this Hugging Face [Collection](https://huggingface.co/collections/davanstrien/synthetic-text-dataset-generation-6643aa29d216a196f31758a8).
@@ -84,3 +90,5 @@ Some important papers about synthetic data generation. **Note** I'm not trying t
 - [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://huggingface.co/papers/2304.12244)
   (Also check out the other Wizard papers i.e. [WizardCoder: Empowering Code Large Language Models with Evol-Instruct](https://huggingface.co/papers/2306.08568)).
 - [Improving Text Embeddings with Large Language Models](https://huggingface.co/papers/2401.00368)
+- [Extensive Self-Contrast Enables Feedback-Free Language Model Alignment](https://arxiv.org/abs/2404.00604v1)
+  (From the Starling team).
