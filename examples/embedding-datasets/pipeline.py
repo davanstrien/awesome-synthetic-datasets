@@ -1,5 +1,6 @@
 import json
 import random
+from typing import Optional
 
 from distilabel.pipeline import Pipeline
 from distilabel.steps import (
@@ -12,9 +13,9 @@ from distilabel.steps import (
 from distilabel.steps.tasks import (
     TextGeneration,
 )
-from huggingface_hub import InferenceClient, get_token
+from huggingface_hub import DatasetCard, InferenceClient, get_token
 from pydantic import BaseModel, conlist, constr
-from typing import Optional
+
 from custom_llm import InferenceEndpointsLLMWithGrammar
 
 EMBEDDING_MODEL_ENDPOINT_URL = (
@@ -100,6 +101,18 @@ Return your examples as a JSON object with the keys 'good' and 'bad', and the re
 
 {schema}
 """
+
+
+def update_card(dataset_id):
+    try:
+        card = DatasetCard.load(dataset_id)
+        if "sentence-transformers" not in card.data.tags:
+            card.data.tags.append("sentence-transformers")
+        if "DistilSimData" not in card.data.tags:
+            card.data.tags.append("DistilSimData")
+        card.push_to_hub(dataset_id)
+    except Exception as e:
+        print(e)
 
 
 @step(inputs=["text"], outputs=["instruction"])
@@ -202,6 +215,7 @@ def run_pipeline(
 
     # Push to the hub
     distiset.push_to_hub(output_dataset_id)
+    update_card(output_dataset_id)
 
 
 if __name__ == "__main__":
