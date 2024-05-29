@@ -17,6 +17,10 @@ This repository aims to organize resources focused on helping people (including 
 
 - [Synthetic data: save money, time and carbon with open source](https://huggingface.co/blog/synthetic-data-save-costs): shows how to use an open-source LLM to create synthetic data to train your customized model in a few steps.
 
+### Examples in this repository 
+
+- [Generating Embedding Data with LLMs](examples/embedding-datasets)
+
 ## Important techniques
 
 - [Self-Instruct](techniques/self_instruct/README.md)
