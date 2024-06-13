@@ -52,6 +52,10 @@ More details in this [blog post](https://huggingface.co/blog/websight).
 
 > gretelai/synthetic_text_to_sql is a rich dataset of high quality synthetic Text-to-SQL samples, designed and generated using Gretel Navigator, and released under Apache 2.0. Please see our release blogpost for more details.
 
+#### [Salesforce/xlam-function-calling-60k](https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k)
+
+> A dataset of 60,000 generated function-calling examples across 21 categories and 3,673 APIs.
+
 ### Libraries, code and tools
 
 This list isn't compressive and tries to focus on either actively developed libraries or libraries/code examples that demonstrate a particular approach well.
