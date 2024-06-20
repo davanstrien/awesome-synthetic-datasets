@@ -100,3 +100,4 @@ Some important papers about synthetic data generation. **Note** I'm not trying t
 - [Improving Text Embeddings with Large Language Models](https://huggingface.co/papers/2401.00368)
 - [Extensive Self-Contrast Enables Feedback-Free Language Model Alignment](https://arxiv.org/abs/2404.00604v1)
   (From the Starling team).
+- [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://huggingface.co/papers/2406.08464) 
