@@ -1,4 +1,4 @@
-<div align="center">
+.<div align="center">
   <h1>Awesome Synthetic (text) datasets </h1>
    <p><em>Generating datasets using large language models</em></p>
    <p><em><a href="https://huggingface.co/davanstrien">Follow me on the 🤗 Hub</a></em></p>
@@ -65,6 +65,9 @@ This list isn't compressive and tries to focus on either actively developed libr
 > ⚗️ distilabel is a framework for synthetic data and AI feedback for AI engineers that require high-quality outputs, full data ownership, and overall efficiency.
 
 This is a very flexible library that is actively being developed and improved. It supports a large number of LLM providers. It includes many common synthetic data generation techniques from papers such as [Self-Instruct](https://distilabel.argilla.io/latest/reference/distilabel/steps/tasks/self_instruct/) and [EvolInstruct](https://distilabel.argilla.io/latest/api/steps/tasks/text_generation/#distilabel.steps.tasks.evol_instruct.base.EvolInstruct).
+
+#### [DataDreamer](https://github.com/datadreamer-dev/DataDreamer)
+An open-source Python library for prompting, synthetic data generation, and training workflows. It is designed to be simple, extremely efficient, and research-grade.
 
 #### [llm-swarm](https://github.com/huggingface/llm-swarm)
 
