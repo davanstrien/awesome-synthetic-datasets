@@ -1,5 +1,5 @@
 .<div align="center">
-  <h1>Awesome Synthetic (text) datasets </h1>
+  <h1>Awesome Synthetic (text/vision) datasets </h1>
    <p><em>Generating datasets using large language models</em></p>
    <p><em><a href="https://huggingface.co/davanstrien">Follow me on the 🤗 Hub</a></em></p>
 </div>
@@ -15,7 +15,9 @@ This repository aims to organize resources focused on helping people (including 
 
 ## Tutorials, guides and educational blog posts
 
-- [Synthetic data: save money, time and carbon with open source](https://huggingface.co/blog/synthetic-data-save-costs): shows how to use an open-source LLM to create synthetic data to train your customized model in a few steps.
+- [Synthetic data: save money, time and carbon with open source](https://huggingface.co/blog/synthetic-data-save-costs): shows how to use an open-source LLM to create synthetic data to train your customized model in a few steps.=
+- [Generating a dataset of queries for training and fine-tuning ColPali models on a UFO dataset
+](https://danielvanstrien.xyz/posts/post-with-code/colpali/2024-09-23-generate_colpali_dataset.html): using a VLM to generate synthetic data for fine-tuning ColPali models. 
 
 ### Examples in this repository 
 
