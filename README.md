@@ -1,4 +1,4 @@
-.<div align="center">
+<div align="center">
   <h1>Awesome Synthetic (text/vision) datasets </h1>
    <p><em>Generating datasets using large language models</em></p>
    <p><em><a href="https://huggingface.co/davanstrien">Follow me on the 🤗 Hub</a></em></p>
