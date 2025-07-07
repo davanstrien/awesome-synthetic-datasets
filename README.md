@@ -106,4 +106,8 @@ Some important papers about synthetic data generation. **Note** I'm not trying t
 - [Extensive Self-Contrast Enables Feedback-Free Language Model Alignment](https://arxiv.org/abs/2404.00604v1)
   (From the Starling team).
 - [Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://huggingface.co/papers/2406.08464)
-- [Instruction Pre-Training: Language Models are Supervised Multitask Learners](https://huggingface.co/papers/2406.14491) 
+- [Instruction Pre-Training: Language Models are Supervised Multitask Learners](https://huggingface.co/papers/2406.14491)
+- [Tuning Language Models with (Almost) No Human Labor](https://arxiv.org/abs/2212.09689)
+- [Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use](https://arxiv.org/pdf/2504.04736)
+- [Translate & Fill: Improving Zero-Shot Multilingual Semantic Parsing with Synthetic Data](https://arxiv.org/pdf/2109.04319)
+- [Generating Faithful Synthetic Data with Large Language Models: A Case Study in Computational Social Science](https://arxiv.org/pdf/2305.15041)
