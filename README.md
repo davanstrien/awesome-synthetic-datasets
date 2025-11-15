@@ -68,6 +68,9 @@ This list isn't compressive and tries to focus on either actively developed libr
 
 This is a very flexible library that is actively being developed and improved. It supports a large number of LLM providers. It includes many common synthetic data generation techniques from papers such as [Self-Instruct](https://distilabel.argilla.io/latest/reference/distilabel/steps/tasks/self_instruct/) and [EvolInstruct](https://distilabel.argilla.io/latest/api/steps/tasks/text_generation/#distilabel.steps.tasks.evol_instruct.base.EvolInstruct).
 
+#### [Torque](https://usetorque.dev)
+An open-source Typescript library for declarative and typesafe synthetic dataset generation. It allows to compose reusable conversations with a declarative DSL and generate production-ready datasets like you build UIs.
+
 #### [DataDreamer](https://github.com/datadreamer-dev/DataDreamer)
 An open-source Python library for prompting, synthetic data generation, and training workflows. It is designed to be simple, extremely efficient, and research-grade.
 
