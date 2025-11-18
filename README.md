@@ -74,6 +74,12 @@ An open-source Typescript library for declarative and typesafe synthetic dataset
 #### [DataDreamer](https://github.com/datadreamer-dev/DataDreamer)
 An open-source Python library for prompting, synthetic data generation, and training workflows. It is designed to be simple, extremely efficient, and research-grade.
 
+#### [DataGenFlow](https://www.datagenflow.com/)
+
+> 🌱 DataGenFlow is a free, open-source tool to generate and validate datasets with full transparency. Build generation pipelines by connecting built-in blocks, using templates, or creating custom blocks for specialized workflows.
+
+Flexible low-code tool for building synthetic data generation pipelines, with support for various LLM providers. Fully customizable and extensible with your own code blocks or generation flows.
+
 #### [llm-swarm](https://github.com/huggingface/llm-swarm)
 
 > Manage scalable open LLM inference endpoints in Slurm clusters
