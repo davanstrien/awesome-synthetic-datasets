@@ -80,6 +80,10 @@ An open-source Python library for prompting, synthetic data generation, and trai
 
 Flexible low-code tool for building synthetic data generation pipelines, with support for various LLM providers. Fully customizable and extensible with your own code blocks or generation flows.
 
+#### [Synthetic Data Generator](https://huggingface.co/spaces/argilla/synthetic-data-generator)
+
+A no-code Hugging Face Space for creating synthetic datasets using LLMs. Supports text classification and chat datasets through an accessible interface, making synthetic data generation usable for both non-technical users and experienced practitioners. Built on top of distilabel. See the [blog post](https://huggingface.co/blog/synthetic-data-generator) for more details.
+
 #### [llm-swarm](https://github.com/huggingface/llm-swarm)
 
 > Manage scalable open LLM inference endpoints in Slurm clusters
