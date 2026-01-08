@@ -126,3 +126,9 @@ Some important papers about synthetic data generation. **Note** I'm not trying t
 - [Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use](https://arxiv.org/pdf/2504.04736)
 - [Translate & Fill: Improving Zero-Shot Multilingual Semantic Parsing with Synthetic Data](https://arxiv.org/pdf/2109.04319)
 - [Generating Faithful Synthetic Data with Large Language Models: A Case Study in Computational Social Science](https://arxiv.org/pdf/2305.15041)
+- [Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://huggingface.co/papers/2406.20094)
+  (Introduces Persona Hub, a persona-driven approach to diverse synthetic data generation).
+- [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://huggingface.co/papers/2404.07503)
+  (Comprehensive survey on synthetic data methods, challenges, and applications).
+- [WILDCHAT-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training](https://huggingface.co/papers/2501.18511)
+  (The largest public chat dataset, with responses from 50+ models).
