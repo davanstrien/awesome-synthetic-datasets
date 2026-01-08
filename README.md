@@ -72,7 +72,7 @@ This is a very flexible library that is actively being developed and improved. I
 
 > NeMo Data Designer is a Python library for generating high-quality synthetic datasets.
 
-A production-focused library from NVIDIA for creating diverse, realistic synthetic data. Key features include dependency-aware generation (for correlated fields), built-in validation with Python/SQL validators, LLM-as-a-judge quality scoring, and multi-provider support (NVIDIA, OpenAI). Used to prepare pre and post training datasets for NVIDIA Nemotron models.
+A production-focused library from NVIDIA for creating diverse, realistic synthetic data. Key features include dependency-aware generation (for correlated fields), built-in validation with Python/SQL validators, LLM-as-a-judge quality scoring, and multi-provider support (NVIDIA, OpenAI, [Hugging Face](https://huggingface.co/docs/inference-providers/integrations/datadesigner)). Used to prepare pre and post training datasets for NVIDIA Nemotron models.
 
 #### [Torque](https://usetorque.dev)
 An open-source Typescript library for declarative and typesafe synthetic dataset generation. It allows to compose reusable conversations with a declarative DSL and generate production-ready datasets like you build UIs.
