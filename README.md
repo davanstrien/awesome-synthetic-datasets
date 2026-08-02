@@ -9,9 +9,30 @@
 
 Synthetic data refers to artificially generated data that _usually_ aims to mimic real-world data. This data is created algorithmically, often using models or simulations, rather than collected from real-world sources. Synthetic data has been used for a long time in machine learning. Since the advent of LLMs, there has been increasing use of LLMs for producing synthetic data and for using synthetic data for training LLMs.
 
-## Resources
+## Scope and inclusion criteria
 
 This repository aims to organize resources focused on helping people (including myself) get started with building synthetic datasets. As a result, it will only cover some things and will focus on pragmatic and practical resources for the most part.
+
+It is deliberately not comprehensive. What gets listed:
+
+- **Tools**: either actively developed, or a code example that demonstrates a particular approach well.
+- **Papers**: not every possible paper on the topic, but those that introduced important techniques or had a big impact — particularly "in the wild".
+- **Datasets**: openly licensed and openly documented, and either widely used or the canonical example of a generation technique.
+- **Tutorials**: practical and still accurate. A tutorial written against a deprecated API is worse than no tutorial.
+
+Every entry should say *why* it is here, not just what it is.
+
+**Not covered**: tabular and statistical synthetic data (the SDV/GAN/differential-privacy world). That is a large and separate field — start with [SDV](https://github.com/sdv-dev/SDV) instead. This list is about generating data with language and vision-language models.
+
+## Start here
+
+If you are new to this and want a path rather than a list:
+
+1. [Synthetic data: save money, time and carbon with open source](https://huggingface.co/blog/synthetic-data-save-costs) — read this first for why you would do this at all.
+2. [Self-Instruct](techniques/self_instruct/README.md) — the foundational technique, as a runnable notebook.
+3. [distilabel](https://distilabel.argilla.io/latest/) or [NeMo Data Designer](https://github.com/NVIDIA-NeMo/DataDesigner) — pick a library and build something small.
+4. [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) — look at what a large, well-documented synthetic dataset actually looks like.
+5. [Best Practices and Lessons Learned on Synthetic Data for Language Models](https://huggingface.co/papers/2404.07503) — the survey, once you have hands-on context.
 
 ## Tutorials, guides and educational blog posts
 
@@ -19,16 +40,15 @@ This repository aims to organize resources focused on helping people (including 
 - [Generating a dataset of queries for training and fine-tuning ColPali models on a UFO dataset
 ](https://danielvanstrien.xyz/posts/post-with-code/colpali/2024-09-23-generate_colpali_dataset.html): using a VLM to generate synthetic data for fine-tuning ColPali models. 
 
-### Examples in this repository 
+## Techniques
 
-- [Generating Embedding Data with LLMs](examples/embedding-datasets)
-
-## Important techniques
+Hands-on, runnable material in this repository.
 
 - [Self-Instruct](techniques/self_instruct/README.md)
 - [Generating custom sentence similarity datasets](techniques/similarity-datasets/description_based_similarity.ipynb)
+- [Generating Embedding Data with LLMs](examples/embedding-datasets)
 
-### Important Datasets
+## Datasets
 
 #### [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories)
 
@@ -58,7 +78,7 @@ More details in this [blog post](https://huggingface.co/blog/websight).
 
 > A dataset of 60,000 generated function-calling examples across 21 categories and 3,673 APIs.
 
-### Libraries, code and tools
+## Libraries, code and tools
 
 This list isn't compressive and tries to focus on either actively developed libraries or libraries/code examples that demonstrate a particular approach well.
 
@@ -108,7 +128,7 @@ This framework aims to help you automatically generate high-quality, detailed pr
 
 This is the code accompanying the Starling team's paper ["Extensive Self-Contrast Enables Feedback-Free Language Model Alignment"](https://arxiv.org/abs/2404.00604v1).  The "Nectar" synthetic dataset is used to train a reward model, which is then used to train a large language model by Reinforcement Learning with AI Feedback (RLAIF).
 
-### Important Papers
+## Papers
 
 Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild"). I am collecting a longer list of papers in this Hugging Face [Collection](https://huggingface.co/collections/davanstrien/synthetic-text-dataset-generation-6643aa29d216a196f31758a8).
 
@@ -132,3 +152,7 @@ Some important papers about synthetic data generation. **Note** I'm not trying t
   (Comprehensive survey on synthetic data methods, challenges, and applications).
 - [WILDCHAT-50M: A Deep Dive Into the Role of Synthetic Data in Post-Training](https://huggingface.co/papers/2501.18511)
   (The largest public chat dataset, with responses from 50+ models).
+
+## Related lists
+
+- [LLM-Synthetic-Data](https://github.com/pengr/LLM-Synthetic-Data) — a broader, continuously updated bibliography of synthetic data papers. Useful when this list is deliberately too selective for what you need.
