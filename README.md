@@ -86,6 +86,10 @@ An open-source Python library for prompting, synthetic data generation, and trai
 
 Flexible low-code tool for building synthetic data generation pipelines, with support for various LLM providers. Fully customizable and extensible with your own code blocks or generation flows.
 
+#### [FeatureBench](https://github.com/LiberCoders/FeatureBench)
+
+An open-source pipeline for turning GitHub repositories into test-validated coding tasks. It discovers repositories, builds reproducible Docker environments, and generates tasks through extensible adapters. A feature-development adapter is included, with a unified CLI for data generation, agent inference, and evaluation.
+
 #### [llm-swarm](https://github.com/huggingface/llm-swarm)
 
 > Manage scalable open LLM inference endpoints in Slurm clusters
