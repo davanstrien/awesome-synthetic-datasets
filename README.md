@@ -112,6 +112,10 @@ This framework aims to help you automatically generate high-quality, detailed pr
 
 This is the code accompanying the Starling team's paper ["Extensive Self-Contrast Enables Feedback-Free Language Model Alignment"](https://arxiv.org/abs/2404.00604v1).  The "Nectar" synthetic dataset is used to train a reward model, which is then used to train a large language model by Reinforcement Learning with AI Feedback (RLAIF).
 
+#### [Triplex](https://github.com/triplexanalytics/triplex)
+
+An open-source (Apache-2.0) Rust toolkit that generates synthetic copies of tabular data locally, from a Gaussian copula, a Bayesian network or independent marginals, from the command line. The plain mode writes a fidelity and leakage report and a Python script that reproduces the run; a differentially private mode is also available, with its guarantee pending independent review. Useful when the source table is sensitive and cannot leave the machine.
+
 ### Important Papers
 
 Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild"). I am collecting a longer list of papers in this Hugging Face [Collection](https://huggingface.co/collections/davanstrien/synthetic-text-dataset-generation-6643aa29d216a196f31758a8).
