@@ -20,7 +20,7 @@ This resource is ideal for those looking to customize embeddings for unique doma
 
 ### `custom_llm.py`
 
-This is a custom LLM model (see https://distilabel.argilla.io/latest/sections/learn/tutorial/llm/#defining-custom-llms). It basically adds a grammar option to the existing Hugging Face Inference Endpoints LLM from the `distilabel` library. The grammar option allows users to define rules for generating text, making it easier to create synthetic datasets with specific structures or formats. This feature should be added to a future release of the `distilabel` library so you don't need to worry too much about this file.
+This is a custom LLM model (see https://distilabel.argilla.io/latest/sections/how_to_guides/basic/llm/#creating-custom-llms). It basically adds a grammar option to the existing Hugging Face Inference Endpoints LLM from the `distilabel` library. The grammar option allows users to define rules for generating text, making it easier to create synthetic datasets with specific structures or formats. This feature should be added to a future release of the `distilabel` library so you don't need to worry too much about this file.
 
 ### `pipeline.py`
 

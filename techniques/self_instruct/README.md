@@ -110,7 +110,7 @@ This paper has had a very big impact both in academic research (over 1,000 [
 There are several implementations of the Self Instruct method:
 
 - Official GitHub repository: [https://github.com/yizhongw/self-instruct](https://github.com/yizhongw/self-instruct)
-- [Distilabel implementation](https://distilabel.argilla.io/latest/reference/distilabel/steps/tasks/#distilabel.steps.tasks.SelfInstruct)
+- [Distilabel implementation](https://distilabel.argilla.io/latest/components-gallery/tasks/selfinstruct/)
 - [airoboros](https://github.com/jondurbin/airoboros): a modified version of self instruct.
 
 In practice, most uses of this approach have moved away from strictly following the prompts/approach outlined in the paper. Since the quality of open and closed-source instruction following models has significantly improved since his paper was published, it often makes more sense to use this to prompt a model to generate new instructions more directly.

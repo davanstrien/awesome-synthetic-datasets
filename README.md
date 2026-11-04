@@ -66,7 +66,7 @@ This list isn't compressive and tries to focus on either actively developed libr
 
 > ⚗️ distilabel is a framework for synthetic data and AI feedback for AI engineers that require high-quality outputs, full data ownership, and overall efficiency.
 
-This is a very flexible library that is actively being developed and improved. It supports a large number of LLM providers. It includes many common synthetic data generation techniques from papers such as [Self-Instruct](https://distilabel.argilla.io/latest/reference/distilabel/steps/tasks/self_instruct/) and [EvolInstruct](https://distilabel.argilla.io/latest/api/steps/tasks/text_generation/#distilabel.steps.tasks.evol_instruct.base.EvolInstruct).
+This is a very flexible library that is actively being developed and improved. It supports a large number of LLM providers. It includes many common synthetic data generation techniques from papers such as [Self-Instruct](https://distilabel.argilla.io/latest/components-gallery/tasks/selfinstruct/) and [EvolInstruct](https://distilabel.argilla.io/latest/components-gallery/tasks/evolinstruct/).
 
 #### [NeMo Data Designer](https://github.com/NVIDIA-NeMo/DataDesigner)
 
@@ -92,7 +92,7 @@ Flexible low-code tool for building synthetic data generation pipelines, with su
 
 This library is primarily focused on scaling synthetic text generation using Slurm clusters. This library was used to generate [Cosmopedia](https://github.com/davanstrien/awesome-synthetic-datasets?tab=readme-ov-file#cosmopedia)
 
-#### [Domain Specific Dataset Project](https://github.com/huggingface/data-is-better-together/blob/main/domain-specific-datasets/README.md)
+#### [Domain Specific Dataset Project](https://github.com/huggingface/data-is-better-together/blob/main/cookbook-efforts/domain-specific-datasets/README.md)
 
 This is a project to bootstrap the creation of domain-specific datasets for training models. The goal is to create a set of tools that help users to collaborate with domain experts. Includes a UI tool for creating a pipeline for generating a synthetic dataset focused on a particular domain.
 
