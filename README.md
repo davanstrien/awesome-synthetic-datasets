@@ -112,6 +112,10 @@ This framework aims to help you automatically generate high-quality, detailed pr
 
 This is the code accompanying the Starling team's paper ["Extensive Self-Contrast Enables Feedback-Free Language Model Alignment"](https://arxiv.org/abs/2404.00604v1).  The "Nectar" synthetic dataset is used to train a reward model, which is then used to train a large language model by Reinforcement Learning with AI Feedback (RLAIF).
 
+#### [Limnex UIE](https://github.com/youssefismail-dev/limnex-uie)
+
+A 25.5M-parameter character-level transformer, trained from scratch, that generates synthetic URLs (benign and phishing-style) for training URL and phishing detectors. A filter that drops copies of known URLs is required for every generation, and it runs offline. In a pre-registered test, adding its URLs to a detector's training data raised recall at a 1% false-positive rate in 6 of 6 settings.
+
 ### Important Papers
 
 Some important papers about synthetic data generation. **Note** I'm not trying to add every possible paper on the topic, but rather focus on those that introduced important techniques or had a big impact (particularly "in the wild"). I am collecting a longer list of papers in this Hugging Face [Collection](https://huggingface.co/collections/davanstrien/synthetic-text-dataset-generation-6643aa29d216a196f31758a8).
