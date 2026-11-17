@@ -58,6 +58,12 @@ More details in this [blog post](https://huggingface.co/blog/websight).
 
 > A dataset of 60,000 generated function-calling examples across 21 categories and 3,673 APIs.
 
+#### [Belege — Synthetic German Invoices](https://huggingface.co/datasets/laterrr/belege-de-invoices-sample)
+
+> Belege is a synthetic dataset of 1,000 German invoices and credit notes with pixel-level bounding-box labels for every field and line item. It covers three structurally different page layouts (not just font or colour variation) and three VAT treatments, including the two zero-tax cases — the §19 UStG small-business exemption and §13b UStG reverse charge — that make up 27% of the set and that a model trained on English invoices or SROIE typically gets wrong, since it expects a tax line that isn't there.
+
+A free 40-document sample is at the link above (also mirrored on [Kaggle](https://www.kaggle.com/datasets/laterrr3d/belege-german-invoices-sample) and [Zenodo](https://zenodo.org/records/21944871), DOI `10.5281/zenodo.21944871`); the full 1,000-document set is a paid download. Still single-page only, and the line-item description vocabulary (191 phrases) is closed rather than open-ended — worth knowing before you rely on it for anything beyond layout and tax-scheme variety.
+
 ### Libraries, code and tools
 
 This list isn't compressive and tries to focus on either actively developed libraries or libraries/code examples that demonstrate a particular approach well.
