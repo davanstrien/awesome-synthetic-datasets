@@ -58,6 +58,12 @@ More details in this [blog post](https://huggingface.co/blog/websight).
 
 > A dataset of 60,000 generated function-calling examples across 21 categories and 3,673 APIs.
 
+#### [JASON Finance, Lending and Fraud Evaluation Previews](https://huggingface.co/datasets/Dynamicresponselabs/JASON-Finance-Lending-Previews)
+
+> Small free set of synthetic (fictional) conversation previews for testing AI assistants in finance, lending, collections and fraud-response settings.
+
+
+
 ### Libraries, code and tools
 
 This list isn't compressive and tries to focus on either actively developed libraries or libraries/code examples that demonstrate a particular approach well.
